@@ -1,0 +1,17 @@
+{
+    "navigationFallback": {
+      "rewrite": "/index.html",
+      "exclude": ["/images/*.{png,jpg,gif}", "/css/*"] 
+    },
+  "routes": [
+    {
+      "route": "/api/*",
+      "serve": "https://www.egradtutor.in"
+    }
+  ],
+  "build": {
+    "publish": "public",
+    "functions": "api",
+    "appArtifactLocation": "client"
+  }
+}

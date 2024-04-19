@@ -1,0 +1,14 @@
+// {
+//   "editor.fontFamily": "Dank Mono",
+//   "workbench.colorTheme": "Monokai Pro (Filter Spectrum)"
+// } // {
+// //     "appService.zipIgnorePattern": [
+// //         "node_modules{,/**}",
+// //         ".vscode{,/**}"
+// //     ],
+// //     "appService.defaultWebAppToDeploy": "/subscriptions/683a7f9a-855e-4b0e-b0ed-6314512de78e/resourceGroups/Egradtutor/providers/Microsoft.Web/sites/egradserver",
+// //     "appService.deploySubpath": "Server"
+// // } // {
+// // //     "editor.fontFamily": "Dank Mono",
+// // //     "workbench.colorTheme": "Monokai Pro (Filter Spectrum)"
+// // // }

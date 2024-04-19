@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap");
+
+* {
+  text-decoration: none;
+}
+
+.banner {
+  color: #fff;
+  /* margin-top: -100px; */
+  width: 100%;
+  background: #ffffff;
+  /* height: 100vmax; */
+  /* background: #002944; */
+}
+/* li.slide {
+    height: 600px;
+}
+.carousel-root.banner {
+    height: 654px;
+} */
+/* marquee {
+    box-shadow: 33px 2px 12px 1px;
+    padding: 5px;
+}
+marquee {
+    background: #fff;
+    color: #01c3ff;
+    font-size: 18px;
+} */
+.corouselContent {
+  height: 20%;
+}
+
+.bannerq1 {
+  display: flex;
+  width: 100%;
+}
+.banner1-info {
+  width: 63%;
+  height: 70%;
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+}
+.banner1-info-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: justify;
+}
+
+.banner1-info-heading P {
+  line-height: 1.8;
+  letter-spacing: 0.1px;
+  word-spacing: 2px;
+  font-size: 0.9vmax;
+  text-align: justify;
+  font-weight: 0;
+}
+
+.banner1-info-heading h1 {
+  font-size: 3vmax;
+  margin-right: 408px;
+}
+
+.online-btn {
+  display: flex;
+  margin-right: 480px;
+
+  /* margin: 0 auto; */
+}
+.online-btn button {
+  background: #00a3ff;
+  width: 15vmax;
+  height: 3vmax;
+  text-align: center;
+  margin: 1rem 1rem;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.online-btn button:hover {
+  background-color: #f06767;
+}
+
+a {
+  color: #fff;
+  font: 500 1vmax #fff;
+  /* font-size: 1vmax; */
+}
+a:hover {
+  color: #fff;
+}
+
+a:hover {
+  /* background-color: #01c3ff; */
+  color: #fff;
+}
+
+.Seld_PacedProgram_card {
+    background: rgb(255, 255, 255);
+    max-width: 22%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 11px;
+    box-shadow: 0px 0px 37px -21px;
+}
+.sppE_contant{
+   
+    background: white;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px -4px;
+}
+
+.sppE_contant h4{
+    font-size: 22px;
+}
+
+.Program_Features_sppE h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.Program_Features_sppE p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.sppe_Available h4{
+    font-size: 22px;
+}
+.Features_of_sppE{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sppE_contantF {
+    margin: 10px 0;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px -4px;
+}
+
+.sppe_Available{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sppe_Available button {
+    background: rgb(255 198 198);
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+    box-shadow: 0px 0px 6px -4px;
+}
+
+.sppe_Links_contant{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sppe_Links_contant a {
+    background: rgb(255, 236, 236);
+    color: #000;
+    padding: 3px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0px 0px 6px -4px;
+}
+
+.sppeENROLL_NOW {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.sppeENROLL_NOW a {
+    background: #ff7d7d;
+    padding: 7px;
+    border-radius: 4px;
+}
+ul.List1Features_of_sppE li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+ul.List2Features_of_sppE li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+.BsPlayBtn {
+    color: #ff7d7d;
+}
